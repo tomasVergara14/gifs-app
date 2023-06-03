@@ -29,7 +29,6 @@ export class GifsService {
     if(tag.length === 0 ) return;  // Validate if there is a search
     
     this.organizeTags(tag);
-    console.log(this._tagsHistory)
   }
 
 }
